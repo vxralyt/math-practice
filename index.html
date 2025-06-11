@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Math Practice</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <h1>Math Practice</h1>
+
+    <p id="question">Loading question...</p>
+
+    <input id="answer" type="number" placeholder="Your Answer" class="answer" />
+    <br />
+    <button onclick="checkAnswer()" class="button">Check Answer!</button>
+
+    <p id="feedback"></p>
+
+    <p>Score: <span id="score">0</span>/<span id="total">0</span></p>
+  </body>
+</html>
