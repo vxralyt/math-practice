@@ -27,6 +27,7 @@ function checkAnswer() {
   }
   document.getElementById("score").textContent = score;
   document.getElementById("total").textContent = total;
+  document.getElementById("percent").textContent = score/total;
   genQuestion();
 }
 
